@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  overflow: hidden;
+  background: #FEECE0;
+}
+
+.frame1 {
+  padding: 15px;
+  width: 100%;
+  background: #FEECE0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.frame2 {
+  display: flex;
+  height: 439px;
+  padding: 74px 50px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 64px;
+  flex-shrink: 0;
+  background: #9B6647;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.frame1 .amount {
+  color: #9B6647;
+}
+
+.recepy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.cook {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+h1 {
+  color: #58190A;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  color: #FEECE0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  color: #58190A;
+  font-size: 38px;
+  font-family: Source Serif Pro;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+li {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: normal;
+}/*# sourceMappingURL=main.css.map */
